@@ -6,3 +6,9 @@
 # if (x > 7 && y < 8)       => AND
 # if (x > 7 || y < 8)       => OR
 # if (x>7 && y<8) || a==9   => first AND, then OR
+
+
+#INTEGER and FLOAT datatypes
+
+# 2   / 216 = 0                     => Here, the datatype of '2' it's INTEGER
+# 2.0 / 216 = 0.009259259259259259  => Here, the datatype of '2.0' it's FLOAT
