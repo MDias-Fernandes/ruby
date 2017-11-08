@@ -6,7 +6,7 @@ end
 
 puts '#########################'
 
-#The below code does the exactly thing that the above code
+#The below code does the exactly thing that the above code, not too used
 arr.each { |i| 
 puts i
 }

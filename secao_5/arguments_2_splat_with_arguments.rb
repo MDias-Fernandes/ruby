@@ -16,7 +16,7 @@ puts baiseball_team "carrera", "lincoln", "george", "andrea", "marta"
 
 # Keyword based splat arguments - USE 2 ASTERISKS
 # The following method will scan a 'data structured table' and for each struct the logical will be executed
-# for this, it's necessary pass a 'data structured table' and associate then with a variable
+# for this, it's necessary pass a 'data structured table' and instantiate then with a variable 'structured_data'
 # so pass the variable like an argument for the method and let's see the magical
 def baiseball_team2 **players_based_structure_data
     players_based_structure_data.each do |player, position|

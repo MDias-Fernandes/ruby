@@ -11,3 +11,15 @@ p string.split(//) #split every character in the mentioned string in a index ins
 
 string2 = "TO LOWERCASE"
 p string2.downcase
+
+# Working with arrays and split methods
+
+string3 = "The quick brown fox jumped over the quick dog".split
+convert = string3.to_a
+puts convert, convert.size
+
+string3 = "The quick brown fox jumped over the quick dog".split
+convert = string3.to_a
+convert.each do |x|
+    puts x, x.length
+end
