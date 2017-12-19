@@ -1,6 +1,6 @@
 #Setters and Getters
 
-#GETTERS
+##############################GETTERS
 class ApiConnector
     #Anithing inside here belongs to 'ApiConnector' class
     #Attribute Accessors, in terms of JAVA for example, means create a getter and setter method
@@ -18,7 +18,9 @@ end
 
 #The above class doesn't work if won't instantiated, so it's need setters method ...
 
-#SETTERS
+
+
+###############################SETTERS
 api = ApiConnector.new
 api.url = "http://www.google.com/"
 puts api.url
