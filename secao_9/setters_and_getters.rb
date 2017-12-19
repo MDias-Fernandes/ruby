@@ -25,4 +25,4 @@ puts api.url
 # => http://www.google.com/
 
 api.work_method
-# => Testing class cal, this method will work because will be calleds
+# => Testing class cal, this method will work because will be called
