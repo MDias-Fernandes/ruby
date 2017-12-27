@@ -9,6 +9,8 @@ p string.split.size #Hou much indexes are in there
 p string.split(//).size #How much characters are in total in this indexes, similar to 'string.size'
 p string.split(//) #split every character in the mentioned string in a index inside a array
 
+#split(',') The arguments it's what should be eliminated
+
 string2 = "TO LOWERCASE"
 p string2.downcase
 
