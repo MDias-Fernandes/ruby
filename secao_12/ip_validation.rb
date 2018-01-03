@@ -4,5 +4,5 @@ def is_valid_ip_address? ip
     ip = IP_ADDRESS_REGEX
 end
 
-puts is_valid_ip_address? ("999.16.0.0") ? "Valid" : "Invalid"
-puts is_valid_ip_address? ("172.16.0.111") ? "Valid" : "Invalid"
+puts is_valid_ip_address?("999.16.0.0") ? "Valid" : "Invalid"
+puts is_valid_ip_address?("172.16.0.111") ? "Valid" : "Invalid"

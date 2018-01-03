@@ -1,6 +1,6 @@
 starting_sentence = "Hi from matching land"
 sentence_array = starting_sentence.split(//).map(&:downcase)
-#["H", "i", " ", "F", "r", "o", "m", ...]
+#["h", "i", " ", "F", "r", "o", "m", ...] and ALL in downcase
 account_count = sentence_array - [" "]
 #How much index minus the empty spaces on it
 #With empty spaces = 20 indexes
